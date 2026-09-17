@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.arrencraft.weaponsoflegends.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemInHandRendererMixin",
+    "ItemInHandLayerMixin",
+    "PlayerAttackHelperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemGroup.weapons_of_legends": "Example Mod Tab",
+  "block.weapons_of_legends.example_block": "Example Block",
+  "item.weapons_of_legends.example_item": "Example Item",
+
+  "weapons_of_legends.configuration.title": "Weapons of Legends Configs",
+  "weapons_of_legends.configuration.section.weapons_of_legends.common.toml": "Weapons of Legends Configs",
+  "weapons_of_legends.configuration.section.weapons_of_legends.common.toml.title": "Weapons of Legends Configs",
+  "weapons_of_legends.configuration.items": "Item List",
+  "weapons_of_legends.configuration.logDirtBlock": "Log Dirt Block",
+  "weapons_of_legends.configuration.magicNumberIntroduction": "Magic Number Text",
+  "weapons_of_legends.configuration.magicNumber": "Magic Number"
+}
