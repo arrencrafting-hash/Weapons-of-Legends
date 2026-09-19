@@ -2,7 +2,7 @@ package com.arrencraft.weaponsoflegends.mixin;
 
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
-import com.arrencraft.weaponsoflegends.PairedWeapon;
+import com.arrencraft.weaponsoflegends.api.PairedWeapon;
 import net.bettercombat.logic.PlayerAttackHelper;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;

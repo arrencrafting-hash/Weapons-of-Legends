@@ -1,5 +1,6 @@
-package com.arrencraft.weaponsoflegends;
+package com.arrencraft.weaponsoflegends.artifacts.kingslayers.client;
 
+import com.arrencraft.weaponsoflegends.artifacts.kingslayers.Kingslayers;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib.model.GeoModel;
 

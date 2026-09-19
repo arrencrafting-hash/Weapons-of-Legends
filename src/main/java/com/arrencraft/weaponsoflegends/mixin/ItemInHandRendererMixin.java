@@ -1,6 +1,6 @@
 package com.arrencraft.weaponsoflegends.mixin;
 
-import com.arrencraft.weaponsoflegends.PairedWeapon;
+import com.arrencraft.weaponsoflegends.api.PairedWeapon;
 import net.minecraft.client.renderer.ItemInHandRenderer;
 import org.spongepowered.asm.mixin.Mixin;
 import net.minecraft.client.player.AbstractClientPlayer;

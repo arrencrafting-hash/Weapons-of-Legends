@@ -1,6 +1,6 @@
 package com.arrencraft.weaponsoflegends.mixin;
 
-import com.arrencraft.weaponsoflegends.PairedWeapon;
+import com.arrencraft.weaponsoflegends.api.PairedWeapon;
 import net.minecraft.client.renderer.entity.layers.ItemInHandLayer;
 import net.minecraft.world.entity.HumanoidArm;
 import net.minecraft.world.entity.LivingEntity;
