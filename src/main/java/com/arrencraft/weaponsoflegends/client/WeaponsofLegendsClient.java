@@ -10,6 +10,10 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
+import com.arrencraft.weaponsoflegends.visual.paired.PairedWeaponRenderLayer;
+import net.minecraft.client.renderer.entity.player.PlayerRenderer;
+import net.minecraft.client.resources.PlayerSkin;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 
 // This class will not load on dedicated servers. Accessing client side code from here is safe.
 @Mod(value = WeaponsofLegends.MODID, dist = Dist.CLIENT)
@@ -29,4 +33,21 @@ public class WeaponsofLegendsClient {
         WeaponsofLegends.LOGGER.info("HELLO FROM CLIENT SETUP");
         WeaponsofLegends.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
+
+    @SubscribeEvent
+    public static void onAddLayers(EntityRenderersEvent.AddLayers event) {
+        for (PlayerSkin.Model skin : event.getSkins()) {
+            PlayerRenderer renderer = event.getSkin(skin);
+
+            if (renderer != null) {
+                renderer.addLayer(
+                        new PairedWeaponRenderLayer(
+                                renderer,
+                                Minecraft.getInstance().getEntityRenderDispatcher().getItemInHandRenderer()
+                        )
+                );
+            }
+        }
+    }
+
 }

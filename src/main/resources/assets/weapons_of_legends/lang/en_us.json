@@ -1,7 +1,9 @@
 {
-  "itemGroup.weapons_of_legends": "Example Mod Tab",
+  "itemGroup.weapons_of_legends": "Weapons of Legends",
   "block.weapons_of_legends.example_block": "Example Block",
-  "item.weapons_of_legends.example_item": "Example Item",
+  "item.weapons_of_legends.kingslayers": "The Kingslayers",
+  "block.weapons_of_legends.legendary_forge": "Legendary Forge",
+  "block.weapons_of_legends.legendary_forge_part": "Legendary Forge Part",
 
   "weapons_of_legends.configuration.title": "Weapons of Legends Configs",
   "weapons_of_legends.configuration.section.weapons_of_legends.common.toml": "Weapons of Legends Configs",
